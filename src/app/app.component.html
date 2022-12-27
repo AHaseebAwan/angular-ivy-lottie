@@ -1,4 +1,6 @@
 <hello name="{{ name }}"></hello>
-<p>
-  Start editing to see some magic happen :)
-</p>
+<p>Start editing to see some magic happen :)</p>
+<button (click)="animation.playHomeToLogo()">Play Home-to-Logo</button>
+<button (click)="animation.playLogoToHome()">Play Logo-to-Home</button>
+<button (click)="animation.playRainbow()">Play Rainbow</button>
+<axc-lottie-animation #animation></axc-lottie-animation>
